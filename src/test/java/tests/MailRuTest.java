@@ -36,6 +36,6 @@ public final class MailRuTest extends BaseTest {
         mailRuInboxPage.fillSubjectField("Some subject");
         mailRuInboxPage.fillBody("Some text");
         mailRuInboxPage.sendMail();
-        Assert.assertTrue(mailRuInboxPage.isMessageSent(), "The message was not sent");
+        Assert.assertTrue(mailRuInboxPage.isMessageSent(), "The mail was not sent");
     }
 }
